@@ -3,7 +3,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.example.runique.buildlogic"
+group = "com.example.buildlogic"
 
 dependencies {
     compileOnly(libs.android.gradlePlugin)
@@ -12,6 +12,7 @@ dependencies {
     compileOnly(libs.ksp.gradlePlugin)
     compileOnly(libs.room.gradlePlugin)
 }
+
 gradlePlugin {
     plugins {
         register("androidApplication") {
