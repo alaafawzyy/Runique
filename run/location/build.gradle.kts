@@ -7,9 +7,6 @@ android {
 }
 
 dependencies {
-    implementation(projects.core.domain)
-    implementation(projects.run.domain)
-
     implementation(libs.androidx.core.ktx)
 
     implementation(libs.androidx.compose.ui)
@@ -20,4 +17,12 @@ dependencies {
 
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.google.android.gms.play.services.location)
+
+    implementation(projects.core.domain)
+    implementation(projects.run.domain)
+
+
+    implementation(platform(libs.androidx.compose.bom))
+
+    implementation(libs.kotlinx.coroutines.play.services)
 }

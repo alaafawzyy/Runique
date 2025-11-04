@@ -120,3 +120,4 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 example-android-application = { id = "example.android.application", version = "unspecified" }
 example-android-application-compose = { id = "example.android.application.compose", version = "unspecified" }
 example-android-library = { id = "example.android.library", version = "unspecified" }
+example-android-library-compose = { id = "example.android.library.compose", version = "unspecified" }
