@@ -122,6 +122,7 @@ example-android-application-compose = { id = "example.android.application.compos
 example-android-library = { id = "example.android.library", version = "unspecified" }
 example-android-library-compose = { id = "example.android.library.compose", version = "unspecified" }
 example-android-feature-ui = { id = "example.android.feature.ui", version = "unspecified" }
+example-android-room = { id = "example.android.room", version = "unspecified" }
 
 
 [bundles]
