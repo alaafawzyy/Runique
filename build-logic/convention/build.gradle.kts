@@ -43,5 +43,9 @@ gradlePlugin {
             id = "example.jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("jvmKtor") {
+            id = "example.jvm.ktor"
+            implementationClass = "JvmKtorConventionPlugin"
+        }
     }
 }

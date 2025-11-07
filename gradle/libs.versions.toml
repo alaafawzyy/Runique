@@ -124,6 +124,7 @@ example-android-library-compose = { id = "example.android.library.compose", vers
 example-android-feature-ui = { id = "example.android.feature.ui", version = "unspecified" }
 example-android-room = { id = "example.android.room", version = "unspecified" }
 example-jvm-library = { id = "example.jvm.library", version = "unspecified" }
+example-jvm-ktor = { id = "example.jvm.ktor", version = "unspecified" }
 
 
 [bundles]
